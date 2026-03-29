@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brayan | Video Editor</title>
+  <title>Brayan | Video Editor & Website Designer</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -24,24 +24,13 @@
     .contact { text-align: center; }
     .feedback { text-align: center; padding: 60px 40px; background: #111; }
     .feedback .feedback-card { background: #1a1a1a; margin: 20px auto; padding: 20px; border-radius: 12px; max-width: 600px; }
+    .feedback .feedback-card img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
     .feedback .feedback-card p { font-style: italic; color: #ccc; }
     .feedback .feedback-card h4 { margin-top: 10px; color: #00ffcc; }
     .feedback .feedback-card .stars { color: #ffcc00; margin-top: 5px; font-size: 18px; }
     .feedback .feedback-card .stars span { display: inline-block; }
-    .feedback .feedback-card .half-star {
-      position: relative;
-      display: inline-block;
-      width: 1em;
-      overflow: hidden;
-    }
-    .feedback .feedback-card .half-star::before {
-      content: '★';
-      position: absolute;
-      left: 0;
-      width: 50%;
-      overflow: hidden;
-      color: #ffcc00;
-    }
+    .feedback .feedback-card .half-star { position: relative; display: inline-block; width: 1em; overflow: hidden; }
+    .feedback .feedback-card .half-star::before { content: '★'; position: absolute; left: 0; width: 50%; overflow: hidden; color: #ffcc00; }
     .social-link { display: inline-block; margin-top: 10px; padding: 8px 15px; background: #ff0050; color: white; border-radius: 8px; text-decoration: none; font-weight: 600; transition: 0.3s; user-select: text; cursor: pointer; }
     .social-link:hover { background: #cc0040; }
     footer { text-align: center; padding: 20px; background: #111; color: #777; }
@@ -59,28 +48,37 @@
 </header>
 
 <section class="hero" id="home">
-  <h2>Video Editor</h2>
-  <p>I create high-quality edits for all types of content that get attention and results.</p>
+  <h2>Video Editor & Website Designer</h2>
+  <p>I create high-quality edits and professional websites for all types of content that get attention and results.</p>
   <button class="btn" onclick="document.getElementById('contact').scrollIntoView()">Hire Me</button>
 </section>
 
 <section id="feedback" class="feedback">
   <h2 class="section-title">Client Feedback</h2>
   <div class="feedback-card">
-    <p>"This website is actually really good and genuinely one of the best ones out there right now."</p>
+    <img src="0b766ade-7f30-49fa-922e-b43876ae613b.png" alt="wxmbyvr">
+    <p>"This website is actually really good and genuinely one of the best ones out there right now. I love it!"</p>
     <h4>- wxmbyvr</h4>
     <div class="stars">
       <span>★</span><span>★</span><span>★</span><span>★</span><span class="half-star"></span>
     </div>
-    <button class="social-link" onclick="window.open('https://www.tiktok.com/@wxmbyvr?lang=fr','_blank')">Click to visit TikTok Profile</button>
+    <a class="social-link" href="https://www.tiktok.com/@wxmbyvr?lang=fr" target="_blank" rel="noopener noreferrer">Click to visit TikTok Profile</a>
   </div>
   <div class="feedback-card">
-    <p>"Professional and fast delivery. Highly recommended."</p>
-    <h4>- Client B</h4>
+    <img src="https://i.pravatar.cc/60?img=2" alt="ShadowStrike">
+    <p>"It was super fast and exactly what I wanted! Totally recommend SKYX."</p>
+    <h4>- ShadowStrike</h4>
+    <div class="stars">
+      <span>★</span><span>★</span><span>★</span><span>★</span><span class="half-star"></span>
+    </div>
   </div>
   <div class="feedback-card">
-    <p>"SKYX took my ideas and turned them into a masterpiece."</p>
-    <h4>- Client C</h4>
+    <img src="https://i.pravatar.cc/60?img=3" alt="NightFury">
+    <p>"OMG, my edits look so cool now! Thank you so much SKYX!"</p>
+    <h4>- NightFury</h4>
+    <div class="stars">
+      <span>★</span><span>★</span><span>★</span><span>★</span><span class="half-star"></span>
+    </div>
   </div>
 </section>
 
@@ -91,7 +89,7 @@
 </section>
 
 <footer>
-  <p>© 2026 SKYX - Video Editing Services</p>
+  <p>© 2026 SKYX - Video Editing & Web Design Services</p>
 </footer>
 
 </body>
